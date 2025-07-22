@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f4f6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #007bff;
+    color: white;
+}
+
+.filters {
+    text-align: center;
+    margin: 20px;
+}
+
+select {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.api-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.api-card {
+    background: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.api-card h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.api-card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.api-card .btns {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.api-card a, .api-card button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.api-card a {
+    background-color: #28a745;
+    color: white;
+}
+
+.api-card button {
+    background-color: #ffc107;
+    color: black;
+}
+
+details summary {
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
