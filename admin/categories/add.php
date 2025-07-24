@@ -21,10 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>Add New Category</h2>
+        <nav>
+        <a href="index.php">← Back to Categories</a>
+    </nav>
     <form method="POST">
         <input type="text" name="name" placeholder="Category Name" required />
         <button type="submit">Add</button>
     </form>
-    <br><a href="index.php">← Back</a>
 </body>
 </html>

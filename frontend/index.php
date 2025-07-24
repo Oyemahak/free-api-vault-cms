@@ -55,22 +55,19 @@ $apis = $stmt->fetchAll();
             <?php foreach ($apis as $api): ?>
                 <div class="api-card">
                     <h3><?= htmlspecialchars($api['name']) ?></h3>
-                    <p><strong>Category:</strong> <?= htmlspecialchars($api['category_name']) ?></p>
-                    <p><strong>Auth:</strong> <?= $api['auth_type'] ?></p>
-                    <p><strong>Base URL:</strong> <?= htmlspecialchars($api['base_url']) ?></p>
-                    <p><strong>Sample Endpoint:</strong> <?= htmlspecialchars($api['sample_endpoint']) ?></p>
-
-                    <div class="btns">
-                        <a href="<?= $api['docs_url'] ?>" target="_blank">📄 View Docs</a>
-                        <button onclick="copyText('<?= $api['base_url'] . $api['sample_endpoint'] ?>')">📋 Copy Endpoint</button>
-                        <a href="api-details.php?id=<?= $api['id'] ?>">🔍 View Details</a>
-                    </div>
 
                     <?php if (!empty($api['notes'])): ?>
-                        <details><summary>Notes</summary>
-                            <p><?= nl2br(htmlspecialchars($api['notes'])) ?></p>
-                        </details>
+                        <p><?= nl2br(htmlspecialchars($api['notes'])) ?></p>
                     <?php endif; ?>
+
+                    <p><strong>Category:</strong> <?= htmlspecialchars($api['category_name']) ?></p>
+                    <p><strong>Base URL:</strong> <a href="<?= htmlspecialchars($api['base_url']) ?>" target="_blank" rel="noopener noreferrer"><?= htmlspecialchars($api['base_url']) ?></a></p>
+
+                    <div class="btns">
+                        <a href="<?= $api['docs_url'] ?>" target="_blank">View Docs</a>
+                        <button onclick="copyText('<?= $api['base_url'] . $api['sample_endpoint'] ?>')">Copy Endpoint</button>
+                        <a href="api-details.php?id=<?= $api['id'] ?>">Details</a>
+                    </div>
                 </div>
             <?php endforeach; ?>
         <?php else: ?>

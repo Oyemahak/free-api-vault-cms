@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>Add New API</h2>
-    <nav>
+        <nav>
         <a href="index.php">← Back to APIs</a>
     </nav>
 
