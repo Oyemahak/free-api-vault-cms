@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
-$host = 'localhost';
-$db   = 'free_api_vault';
-$user = 'root';
-$pass = ''; // Default password for XAMPP is empty
+$host = 'sql204.infinityfree.com';
+$db   = 'if0_39551355_free_vault_api';
+$user = 'if0_39551355';
+$pass = '4TZh7Qtk3zp'; // Default password for XAMPP is empty
 $charset = 'utf8mb4';
 
 try {
