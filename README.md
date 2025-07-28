@@ -20,7 +20,7 @@ Built for **Assignment 2 – Web Development Project (HTTP-5225-0NA)** at **Humb
 | Organized Codebase (Admin & Frontend Separation)     | ✅ Completed |
 | Use of PDO for DB Security                           | ✅ Completed |
 | Readable, Styled UI (Admin + Frontend)               | ✅ Completed |
-| Hosting and Deployment                               | ⏳ Pending (to be done) |
+| Hosting and Deployment                               | ✅ Completed |
 | Final GitHub Commit + Clean `README.md`              | ✅ Completed |
 
 
@@ -67,15 +67,27 @@ Built for **Assignment 2 – Web Development Project (HTTP-5225-0NA)** at **Humb
 
 (Hardcoded for assignment – no DB-based auth used yet)
 
-## Pending Task
-- Hosting the Project
-- To be deployed using:
-	- Render (PHP + static)
-	- or FTP upload to any PHP-compatible hosting like Hostinger, InfinityFree, etc.
+## 🚀 Live Demo
+
+> 🔗 **Website FrontEnd:** [https://pallavikandikanti.infinityfreeapp.com/](https://pallavikandikanti.infinityfreeapp.com/)
+> 🔗 **Website Admin Panel:** [https://pallavikandikanti.infinityfreeapp.com/admin/apis/index.php](https://pallavikandikanti.infinityfreeapp.com/admin/apis/index.php)
+
+This project is hosted and live on **InfinityFree**, a free hosting provider that supports PHP and static content.
+
+---
+
+## 🛠️ Hosting Details
+
+This project was deployed using the following method:
+
+### ✅ Hosting Platform: [InfinityFree](https://infinityfree.net)
+- Files uploaded via **FTP**
+- Uses **PHP + static files (HTML/CSS/JS)**
+- Deployed in the `htdocs` directory of the InfinityFree file manager
 
 ## Author
 
-- Developed by Mahak Patel, Rutul Mamani, Pallavi, Krunal, Vihar
+- Developed by Mahak Patel, Rutul Mamani, Pallavi Kandikanti, Krunal, Vihar
 
 ## License
 
