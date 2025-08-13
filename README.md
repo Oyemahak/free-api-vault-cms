@@ -87,7 +87,7 @@ This project was deployed using the following method:
 
 ## Author
 
-- Developed by Mahak Patel, Rutul Mamani, Pallavi Kandikant
+- Developed by Mahak Patel, Rutul Manani, Pallavi Kandikant
 ## License
 
 - Educational project for Humber College
